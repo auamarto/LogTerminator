@@ -1,0 +1,33 @@
+{
+    "name": "szymo/logs-terminator2k",
+    "description": "Log Cleaner",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-bcmath": "*",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szymon Kunowski",
+            "email": "szymon.kunowski@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}

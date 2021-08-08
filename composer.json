@@ -1,5 +1,5 @@
 {
-    "name": "szymo/logs-terminator2k",
+    "name": "auamarto/logs-terminator2k",
     "description": "Log Cleaner",
     "type": "library",
     "require": {

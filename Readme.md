@@ -9,7 +9,7 @@ FileLogManager: Line must begin from date-time in format 'd/m/Y H:i:s'
 ```json
 "repositories": [
         {
-            "type": "vcs",
+            "type": "git",
             "url": "https://github.com/auamarto/LogTerminator"
         }
     ],
